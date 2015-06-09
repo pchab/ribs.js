@@ -1,7 +1,7 @@
 'use strict';
 
-import ViewHelper = require('./viewHelper');
-import Container = require('./container');
+import ViewHelper = require('viewHelper');
+import Container = require('container');
 import Backbone = require('backbone');
 import $ = require('jquery');
 import _ = require('underscore');

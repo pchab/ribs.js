@@ -2,7 +2,8 @@
 
 import Backbone = require('backbone');
 
-class EventsManager extends Backbone.Events {
+class EventsManager extends Backbone.Events
+{
 
     constants = {
 
@@ -12,6 +13,10 @@ class EventsManager extends Backbone.Events {
 
     };
 
+    constructor() {
+        super();
+    }
+
 }
 
-export = new EventsManager();
+export = (<any>new EventsManager());

@@ -1,4 +1,4 @@
-// Type definitions for Ribs
+﻿// Type definitions for Ribs
 // Project: https://github.com/chrisweb/ribs.js
 // Definitions by: Norbert TRAN PHAT <https://github.com/MasGaNo>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
@@ -115,7 +115,7 @@ declare module Ribs {
         remove(helperName: string): void;
         get(): { [s: string]: Function };
     }
-    
+
 }
 
 declare module 'ribsjs' {
